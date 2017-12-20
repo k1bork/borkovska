@@ -1,0 +1,37 @@
+.centerContainer{
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+.myContactInfo, .userContactForm>form{
+    display:flex;
+    flex-direction:column;
+}
+.myContactInfo{
+    color:white;
+    text-align: right;
+    padding-right: 10px;
+    border-right: 2px solid #927F61;
+}
+.userContactForm{
+    color:white;
+    padding-left: 10px;
+}
+main{
+    background-color: #444444;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:30% 60% 10%; 
+}
+main article h1{
+    color:white;
+    text-align: center;
+}
+.sendButton{
+ background-color: #927F61;
+ color:white;
+ width: 100px;
+}
+.inscriptionContact{
+    color: #927F61;
+    padding-bottom: 20px;
+}
