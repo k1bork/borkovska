@@ -5,6 +5,9 @@ main{
     align-items:center;
 }
 .aboutInfo{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
     width: 50%;
 }
 .foto{
@@ -12,4 +15,7 @@ main{
 }
 .aboutText{
     color:white;
+}
+.aboutText::first-letter{
+    font-size:1.5rem;
 }
