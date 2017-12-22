@@ -19,8 +19,9 @@
 main{
     background-color: #444444;
     height: 100vh;
-    display: grid;
-    grid-template-rows:30% 60% 10%; 
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 main article h1{
     color:white;
@@ -34,4 +35,7 @@ main article h1{
 .inscriptionContact{
     color: #927F61;
     padding-bottom: 20px;
+}
+.form{
+    width:50%;
 }
